@@ -1,0 +1,20 @@
+{
+  "name": "SwiftyTJ-Server",
+  "version": "1.0.0",
+  "description": "Node.js server to listen for commands to control a NeoPixel RGB LED.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "IBM",
+    "Raspberry Pi"
+  ],
+  "author": "Justin Weisz",
+  "license": "",
+  "dependencies": {
+    "rpi-ws281x-native": "^0.8.1",
+    "openpixelcontrol-stream": "^0.1.2"
+  }
+}
