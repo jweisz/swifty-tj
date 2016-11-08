@@ -1,8 +1,8 @@
 # SwiftyTJ
 
-This recipe enables TJ Bot’s LED to be controlled from a [Swift](https://swift.org) program.
+This is a [TJ Bot recipe](https://github.com/ibmtjbot/tjbot) for controlling the LED from a [Swift](https://swift.org) program.
 
-**This is an experimental recipe and has only been tested on Raspian (Jessie).**
+**This is an experimental recipe that has only been tested on Raspian (Jessie).**
 
 ## How It Works
 
@@ -150,4 +150,4 @@ As the Swift 3.0 build matures on Raspberry Pi, it should become easier to inclu
 ## License
 
 This library is licensed under Apache 2.0. Full license text is
-available in [LICENSE](../../LICENSE).
+available in [LICENSE](LICENSE).
