@@ -14,7 +14,7 @@ Our Swift program will communicate over a socket with a Node.js server which use
 
 ## Prerequisites
 
-Before using this recipe, you need to install the Swift 3.0 runtime for your Raspberry Pi.
+Before using this recipe, you need to install the Swift 3.0 runtime for your Raspberry Pi, as well as the `clang` toolchain.
 
 ### Install Swift-3.0
 
@@ -39,6 +39,12 @@ Test to see what version of `swift` you have.
 	$ swift --version
 	Swift version 3.0-dev (LLVM 545d4be6ac, Clang 968470f170, Swift ac8b5bd472)
 	Target: armv7--linux-gnueabihf
+
+### Install clang
+
+Installing clang is required for Swift to be able to invoke the `llvm` linker.
+
+	$ sudo apt-get install -y clang
 
 ## Build
 
